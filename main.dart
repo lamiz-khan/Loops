@@ -1,8 +1,7 @@
 void main() {
-  int num = 1;
-  int i = 10;
-  while (i >= num) {
-    print("THE FIRST TEN NATURAL NUMBER =  $i");
-    i--;
-  }
+  int i = 1;
+  do {
+    print("NUMBER OF SQUARE $i IS ${i * i}");
+    i++;
+  } while (i <= 5);
 }
