@@ -1,10 +1,13 @@
-void main (){
-       
-       int num1 = 7;
-       int i = 1;
-       while(i <= 10){
-       print ("$num1 * $i = ${num1 * i}");
-       i++;
-       
-}
+void main() {
+  int i = 1;
+  int sum = 0;
+
+  do {
+    if (i % 2 != 0) {
+      sum += i;
+    }
+    i++;
+  } while (i <= 50);
+
+  print('Sum of odd numbers from 1 to 50 is: $sum');
 }
