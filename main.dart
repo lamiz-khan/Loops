@@ -1,9 +1,10 @@
-void main() {
-  List<int> num = [23, 44, 54, 2, 88, 7, 90, 1, 10];
-  print("THE UPDATED LIST OF GRAETER THAN FIVE");
-  for (int i = 0; i < num.length; i++) {
-    if (num[i] > 5) {
-      print(num[i]);
-    }
-  }
+void main (){
+       
+       int num1 = 7;
+       int i = 1;
+       while(i <= 10){
+       print ("$num1 * $i = ${num1 * i}");
+       i++;
+       
+}
 }
