@@ -1,7 +1,12 @@
 void main() {
-  int i = 1;
+  List number = [10, 20, 30, 40, 50];
+  double sum = 0;
+  int index = 0;
   do {
-    print("NUMBER OF SQUARE $i IS ${i * i}");
-    i++;
-  } while (i <= 5);
+    sum += number[index];
+    index++;
+  } while (index < number.length);
+  print("THE TOTAL SUM IS $sum");
+  double average = sum / number.length;
+  print("THE AVERAGAE IS $average");
 }
