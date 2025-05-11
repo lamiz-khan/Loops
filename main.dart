@@ -1,13 +1,10 @@
 void main() {
-  int i = 1;
-  int sum = 0;
-
-  do {
-    if (i % 2 != 0) {
-      sum += i;
-    }
-    i++;
-  } while (i <= 50);
-
-  print('Sum of odd numbers from 1 to 50 is: $sum');
+  int num1 = 55;
+  if (num1 > 0) {
+    print("THE NUMBER IS POSITIVE");
+  } else if (num1 < 0) {
+    print("THE NUMBER IS NEGATIVE");
+  } else {
+    print("THE NUMBER IS ZERO");
+  }
 }
